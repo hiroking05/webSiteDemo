@@ -1,94 +1,133 @@
 <!DOCTYPE html>
 <html lang="ja">
  <head>
-   <meta charset="ytf-8">
-   <meta name="description" content="デモサイト">
+   <meta charset="utf-8">
+   <meta name="description" content="demosaite">
    <title>demosite</title>
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/reset.min.css" />
  </head>
  <body>
 
-<section class="wrapper">
-    <div class="container">
-        <div class="content">
-            <h2 class="heading">MESSAGE</h2>
-            <p>テキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    <!-- Header Start -->
+    <header class="site-header">
+      <div class="wrapper site-header__wrapper">
+        <div class="site-header__start">
+          <a href="#" class="brand">Brand</a>
         </div>
-    </div>
-</section>
+        <div class="site-header__end">
+          <nav class="nav">
+            <button class="nav__toggle" aria-expanded="false" type="button">
+              menu
+            </button>
+            <ul class="nav__wrapper">
+              <li class="nav__item"><a href="#">Home</a></li>
+              <li class="nav__item"><a href="#">About</a></li>
+              <li class="nav__item"><a href="#">Services</a></li>
+              <li class="nav__item"><a href="#">Hire us</a></li>
+              <li class="nav__item"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="search">
+            <button class="search__toggle" aria-label="Open search">
+              Search
+            </button>
+            <form class="search__form" action="">
+              <label class="sr-only" for="search">Search</label>
+              <input
+                type="search"
+                name=""
+                id="search"
+                placeholder="What's on your mind?"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
 
-
-<section class="wrapper1">
-    <div class="container">
-        <div class="content">
-            <div class="content-item">
-                <img src="img/sample-1.jpg" class="image">
-            </div>    
-            <div class="content-item">
-                <div class="text">
-                    <h2 class="heading">VISION</h2>
-                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
+    <section class="wrapper">
+        <div class="container">
+            <div class="content">
+                <h2 class="heading">MESSAGE</h2>
+                <p>test</p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-
-<section class="wrapper2">
-    <div class="container">
-        <div class="content">
-            <div class="content-item">
-                <img src="img/sample-2.jpg" class="image">
-            </div>    
-            <div class="content-item">
-                <div class="text">
-                    <h2 class="heading">SERVICE</h2>
-                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="wrapper3">
-    <div class="container">
-        <div class="content">
-            <h2 class="heading">ABOUT US</h2>
-            <div class="list">
-                <div class="list-item">
-                    <img src="img/sample-3-2.jpg" class="image">
-                    <div class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-                </div>
-                <div class="list-item">
-                    <img src="img/sample-3-1.jpg" class="image">
-                    <div class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+    <section class="wrapper1">
+        <div class="container">
+            <div class="content">
+                <div class="content-item">
+                    <img src="img/sample-1.jpg" class="image">
                 </div>    
-                <div class="list-item">
-                    <img src="img/sample-3-3.jpg" class="image">
-                    <div class="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                <div class="content-item">
+                    <div class="text">
+                        <h2 class="heading">VISION</h2>
+                        <p>test</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
-
-<section class="wrapper4">
-    <div class="container">
-        <div class="content">
-            <h2 class="heading">STORY</h2>
-            <div class="list">
-                <div class="list-item">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-                <div class="list-item">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+    <section class="wrapper2">
+        <div class="container">
+            <div class="content">
+                <div class="content-item">
+                    <img src="img/sample-2.jpg" class="image">
+                </div>    
+                <div class="content-item">
+                    <div class="text">
+                        <h2 class="heading">SERVICE</h2>
+                        <p>test</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+
+
+    <section class="wrapper3">
+        <div class="container">
+            <div class="content">
+                <h2 class="heading">ABOUT US</h2>
+                <div class="list">
+                    <div class="list-item">
+                        <img src="img/sample-3-2.jpg" class="image">
+                        <div class="text">test</div>
+                    </div>
+                    <div class="list-item">
+                        <img src="img/sample-3-1.jpg" class="image">
+                        <div class="text">test</div>
+                    </div>    
+                    <div class="list-item">
+                        <img src="img/sample-3-3.jpg" class="image">
+                        <div class="text">test</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="wrapper4">
+        <div class="container">
+            <div class="content">
+                <h2 class="heading">STORY</h2>
+                <div class="list">
+                    <div class="list-item">test</div>
+                    <div class="list-item">test</div>
+                </div>
+            </div>
+        </div>
+    </section>
  </body>
 </html>
