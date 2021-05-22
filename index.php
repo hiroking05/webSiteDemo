@@ -7,10 +7,13 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/reset.min.css" />
    <link rel="stylesheet" href="css/header.css" />
+   <link rel="stylesheet" href="css/footer.css" />
    <link rel="stylesheet" href="css/content.css" />
  </head>
  <body>
-
+    <header>
+        <?php include("front/header.php"); ?> 
+    </header>
 
     <section class="wrapper0">
         <div class="container">
@@ -94,5 +97,10 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <?php include("front/footer.php"); ?> 
+    </footer>
+
  </body>
 </html>
